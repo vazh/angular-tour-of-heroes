@@ -7,6 +7,11 @@
   <h2>
     {{hero.name}} details!
   </h2>
+  <div><label for="id">id: </label>{{hero.id}}</div>
+  <div>
+    <label for="name">name: </label>
+    <input type="text" [(ngModel)]="hero.name" placeholder="name">
+  </div>
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
